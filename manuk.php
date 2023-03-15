@@ -6,7 +6,7 @@ system('clear');
 echo $orange.$banner.$cln;
 echo "\n\n";
 echo $bold.$red."[-] By Manuk Mimin \n\n".$cln;
-    echo $bold . $lime . "Pilih Menu Edot\n";
+    echo $bold . $RBG(255,198,232 . "Pilih Menu Edot\n";
     echo "========\n\n";
     echo $bold . $fgreen . "•> [1]$cln Auto Register With AdaOTP$cln\n";
     echo $bold . $fgreen . "•> [2]$cln Manual Register With OTP$cln\n";
