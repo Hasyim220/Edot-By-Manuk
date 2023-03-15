@@ -5,7 +5,7 @@ require 'function.php';
 system('clear');
 echo $orange.$banner.$cln;
 echo "\n\n";
-echo $bold.$fyellow."[-] Bot eDot By Manuk \n\n".$cln;
+echo $bold.$red."[-] Bot eDot By Manuk \n\n".$cln;
     echo $bold . $lblue . "Commands\n";
     echo "========\n\n";
     echo $bold . $fgreen . "[1]$cln Auto Register With AdaOTP$cln\n";
