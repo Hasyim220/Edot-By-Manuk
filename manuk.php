@@ -17,8 +17,8 @@ web:
 $pilihweb = "[-] Pilih Opsi ";
 $webOTP = input("$bold$orange$pilihweb$cln");
 echo "\n";
-if($webOTP == a) {
-echo "------------ \e[a;36mAuto Regist With AdaOTP\e[0m -----------".PHP_EOL;
+if($webOTP == 1) {
+echo "------------ \e[1;36mAuto Regist With AdaOTP\e[0m -----------".PHP_EOL;
 echo "\n";
 if(!file_exists("alerts.txt")) {
     inputApikeyOTP:
