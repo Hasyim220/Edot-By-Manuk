@@ -8,8 +8,8 @@ echo "\n\n";
 echo $bold.$red."[-] By Manuk Mimin \n\n".$cln;
     echo $bold . $grey . "Pilih Menu Edot\n";
     echo "===============\n\n";
-    echo $bold . $lblue . "•> $fgreen [$white 1 $fgreen]$cln Auto Register With AdaOTP$cln\n";
-    echo $bold . $lblue . "•> $fgreen [$white 2 $fgreen]$cln Manual Register With OTP$cln\n";
+    echo $bold . $lblue . "•> $fgreen [$white 1 $fgreen]$cln Auto Reff AdaOTP$cln\n";
+    echo $bold . $lblue . "•> $fgreen [$white 2 $fgreen]$cln Manual reff OTP$cln\n";
     echo $bold . $lblue . "•> $fgreen [$white 3 $fgreen]$cln Withdraw$cln\n";
   
 echo "\n";
