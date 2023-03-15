@@ -5,19 +5,19 @@ require 'function.php';
 system('clear');
 echo $orange.$banner.$cln;
 echo "\n\n";
-echo $bold.$red."[-] Bot eDot By Manuk Mimin \n\n".$cln;
-    echo $bold . $lblue . "Commands\n";
+echo $bold.$italic.$red."[-] By Manuk Mimin \n\n".$cln;
+    echo $bold . $l  . "Pilih Menu Edot\n";
     echo "========\n\n";
-    echo $bold . $fgreen . "[a]$cln Auto Register With AdaOTP$cln\n";
-    echo $bold . $fgreen . "[b]$cln Manual Register With OTP$cln\n";
-    echo $bold . $fgreen . "[c]$cln Withdraw$cln\n";
+    echo $bold . $fgreen . "•> [1]$cln Auto Register With AdaOTP$cln\n";
+    echo $bold . $fgreen . "•> [2]$cln Manual Register With OTP$cln\n";
+    echo $bold . $fgreen . "•> [3]$cln Withdraw$cln\n";
 echo "\n";
 
 web:
 $pilihweb = "[-] Pilih Opsi ";
 $webOTP = input("$bold$orange$pilihweb$cln");
 echo "\n";
-if($webOTP == 9) {
+if($webOTP == 1) {
 echo "------------ \e[1;36mAuto Regist With AdaOTP\e[0m -----------".PHP_EOL;
 echo "\n";
 if(!file_exists("alerts.txt")) {
@@ -287,7 +287,7 @@ for($ia=1; $ia <= $loop; $ia++){
         goto ulang;
     }
 }
-} elseif($webOTP == b) {
+} elseif($webOTP == 2) {
 echo "------------ \e[1;36mManual Regist With OTP\e[0m -----------".PHP_EOL.PHP_EOL;
 $loopp = "[-] Jumlah Reff ";
 $loop = input("$bold$orange$loopp$cln");
@@ -480,7 +480,7 @@ for($ia=1; $ia <= $loop; $ia++){
         goto ulang1;
     }
 }
-}elseif($webOTP == c) {
+}elseif($webOTP == 3) {
 echo "------------ \e[1;36mWithdraw\e[0m -----------".PHP_EOL;
 echo "\n";
 $usern = "[-] Username ";
