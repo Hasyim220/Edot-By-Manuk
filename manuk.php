@@ -11,7 +11,7 @@ echo $bold.$red."[-] By Manuk Mimin \n\n".$cln;
     echo $bold . $fgreen . "•> [1]$cln Auto Register With AdaOTP$cln\n";
     echo $bold . $fgreen . "•> [2]$cln Manual Register With OTP$cln\n";
     echo $bold . $fgreen . "•> [3]$cln Withdraw$cln\n";
-    echo $bold . $fgreen . "•> [$white 4$fgreen]$cln Add Bank\n";
+    echo $bold . $fgreen . "•> [$white$4$fgreen]$cln Add Bank\n";
 echo "\n";
 
 web:
