@@ -5,12 +5,12 @@ require 'function.php';
 system('clear');
 echo $orange.$banner.$cln;
 echo "\n\n";
-echo $bold.$red."[-] Bot eDot By Manuk \n\n".$cln;
+echo $bold.$red."[-] Bot eDot By Manuk Mimin \n\n".$cln;
     echo $bold . $lblue . "Commands\n";
     echo "========\n\n";
-    echo $bold . $fgreen . "[1]$cln Auto Register With AdaOTP$cln\n";
-    echo $bold . $fgreen . "[2]$cln Manual Register With OTP$cln\n";
-    echo $bold . $fgreen . "[3]$cln Withdraw$cln\n";
+    echo $bold . $purple . "[-]$cln Auto Register With AdaOTP$cln\n";
+    echo $bold . $fgreen . "[-]$cln Manual Register With OTP$cln\n";
+    echo $bold . $fgreen . "[-]$cln Withdraw$cln\n";
 echo "\n";
 
 web:
